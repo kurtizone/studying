@@ -25,7 +25,7 @@ public class MyFileChooser extends JFileChooser {
 		Component c2 = panel2.getComponent(1);// optional used to add the
 												// buttons after combobox
 		panel2.removeAll();
-		JLabel label = new JLabel("Set time, s");
+		JLabel label = new JLabel("Execute in time, s");
 		panel2.add(label);
 		panel2.add(field);
 		panel2.add(c1);// optional used to add the buttons after combobox

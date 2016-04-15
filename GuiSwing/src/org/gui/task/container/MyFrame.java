@@ -20,7 +20,7 @@ import org.gui.task.model.ExecuteEntry;
 import org.gui.task.model.MyFileChooser;
 import org.gui.task.model.MyTableArrayModel;
 
-public class MyFrame {
+public class MyFrame{
 
 	private static int rows = 100;
 	private static int cols = 3;

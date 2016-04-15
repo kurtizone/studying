@@ -1,8 +1,6 @@
 package org.gui.task.model;
 
-import java.io.File;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import javax.swing.table.AbstractTableModel;
@@ -35,7 +33,7 @@ public class MyTableArrayModel extends AbstractTableModel{
 		ExecuteEntry entry = list.get(rowIndex);
 		switch (columnIndex) {
 		case 0: return entry.getId(); 			
-		case 1: return entry.getFile().getAbsolutePath(); 			
+		case 1: return entry.getFile().getName(); 			
 		case 2: return entry.getDate();			
 		default:
 			return "Error";
