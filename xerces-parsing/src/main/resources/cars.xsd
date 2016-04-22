@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema targetNamespace="http://www.w3schools.com/Kurtizone"
+	elementFormDefault="qualified" xmlns="http://www.w3schools.com/Kurtizone cars.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="cars">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="car" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="manufacturer" type="xs:normalizedString" />
+							<xs:element name="model" type="xs:normalizedString" />
+							<xs:element name="weight" type="xs:integer" />
+							<xs:element name="maxSpeed" type="xs:integer" />
+							<xs:element name="color" type="xs:normalizedString" />
+							<xs:element name="price" type="xs:integer" />
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:normalizedString" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+
+</xs:schema>

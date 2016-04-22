@@ -63,4 +63,9 @@ public class MyTableArrayModel extends AbstractTableModel{
 		fireTableDataChanged();
 	}
 
+	public void removeRow(ExecuteEntry entry) {
+		list.remove(entry);
+		fireTableDataChanged();
+	}
+
 }

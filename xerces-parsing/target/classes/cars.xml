@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cars xmlns="http://www.w3schools.com/Kurtizone" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3schools.com/Kurtizone cars.xsd"
+	xsi:noNamespaceSchemaLocation="cars.xsd">
+	<car id="1">
+		<manufacturer>Mitsubishi</manufacturer>
+		<model>Lancer</model>
+		<weight>2100</weight>
+		<maxSpeed>180</maxSpeed>
+		<color>red</color>
+		<price>14000</price>
+	</car>
+	<car id="2">
+		<manufacturer>Volkswagen</manufacturer>
+		<model>Golf</model>
+		<weight>1600</weight>
+		<maxSpeed>160</maxSpeed>
+		<color>gray</color>
+		<price>6000</price>
+	</car>
+	<car id="3">
+		<manufacturer>Mercedes</manufacturer>
+		<model>AMG</model>
+		<weight>1950</weight>
+		<maxSpeed>240</maxSpeed>
+		<color>black</color>
+		<price>60000</price>
+	</car>
+	<car id="4">
+		<manufacturer>Mazda</manufacturer>
+		<model>MX-5</model>
+		<weight>1500</weight>
+		<maxSpeed>200</maxSpeed>
+		<color>red</color>
+		<price>10500</price>
+	</car>
+
+
+</cars>

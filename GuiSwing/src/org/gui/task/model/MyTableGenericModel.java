@@ -57,5 +57,10 @@ public class MyTableGenericModel<T> extends AbstractTableModel {
 		return null;
 	}
 	
+	@Override
+	public String getColumnName(int column) {
+		return colNames.get(column);
+	}
+	
 
 }

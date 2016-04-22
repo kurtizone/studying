@@ -10,16 +10,11 @@ public class ExecuteEntry {
 	private Integer id;
 	private File file;
 	private Date date;
-	private String[] rowData;
 	
 	public ExecuteEntry(File file, Date date) {
 		this.id = inc++;
 		this.file = file;
 		this.date = date;
-		rowData = new String[3];
-		rowData[0] = id.toString();
-		rowData[1] = file.getAbsolutePath();
-		rowData[2] = date.toString();
 	}
 	
 	public Integer getId() {
@@ -51,9 +46,6 @@ public class ExecuteEntry {
 		return "ExecuteEntry [id=" + id + ", file=" + file + ", date=" + date + "]";
 	}
 	
-	public String[] getRowData() {
-		return rowData;
-	}
 	
 	
 	
